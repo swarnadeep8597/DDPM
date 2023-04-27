@@ -6,7 +6,7 @@ from torchvision.utils import save_image
 
 #will go to config
 save_and_sample_every = 1000
-channels = 3
+channels = 1
 image_size = 128
 
 def train_model(epochs,model,optimizer,device,results_folder,dataloader):
